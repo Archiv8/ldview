@@ -1,0 +1,26 @@
+pkgbase = ldview
+	pkgdesc = A real-time 3D viewer for displaying LDraw models
+	pkgver = 4.4.1
+	pkgrel = 1
+	url = http://github.com/tcobbs/ldview
+	arch = x86_64
+	arch = i686
+	license = GPL
+	makedepends = kdelibs4support
+	makedepends = glu
+	makedepends = gcc
+	makedepends = make
+	makedepends = cmake
+	makedepends = extra-cmake-modules
+	depends = qt5-base
+	depends = qt5-tools
+	depends = libpng
+	depends = libjpeg-turbo
+	depends = mesa-libgl
+	depends = gl2ps
+	source = ldview-git.tar.gz
+	md5sums = SKIP
+
+pkgname = ldview
+
+pkgname = ldview-osmesa
